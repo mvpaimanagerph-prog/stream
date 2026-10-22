@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color-scheme: dark;
+    background-color: #0f1115;
+  }
+}
+
+/* Custom OBS studio range slider styling */
+input[type="range"].fader {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #1e2229;
+  height: 6px;
+  border-radius: 3px;
+  outline: none;
+}
+
+input[type="range"].fader::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  background: #3b82f6;
+  border: 1px solid #60a5fa;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  transition: transform 0.1s ease;
+}
+
+input[type="range"].fader::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  background: #60a5fa;
+}
+
+/* Sleek dark scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #14171d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #282d37;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #383f4d;
+}

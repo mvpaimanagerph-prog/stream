@@ -1,0 +1,10 @@
+{
+  "name": "LiveStudio PH",
+  "description": "Professional OBS-like web streaming studio for composing live multi-source scenes, camera & microphone capture, audio mixing, graphics overlays, and Facebook Live broadcasting.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
